@@ -7,32 +7,25 @@
     font-family: 'Raleway', sans-serif;
 }
 
-.encabezado {
-    padding: 20px 50px;
-    background-color: rgb(93, 54, 105);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* .navbar {
     position: fixed;
+} */
+.bg-body-personalizado {
+    padding: 10px 40px;
+    background-color: #5d3669;
     width: 100%;
-    z-index: 99;
 }
 
-.menu {
-    list-style-type: none;
-    display: flex;
-    gap: 30px;
-}
-
-.logo{
+.navbar-brand {
     color: rgb(154, 147, 161);
-    text-decoration: none;
+    font-size: 40px;
 }
 
-.menu__item a {
+.nav-link {
     color: rgb(154, 147, 161);
-    text-decoration: none;
-} 
+    font-size: 18px;
+}
+
 
 .partePrincipal {
     background-image: url(../images/fascinante-vista-montana-sassolungo-italia_181624-42103.avif);
