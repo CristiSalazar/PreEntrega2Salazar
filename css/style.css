@@ -55,10 +55,16 @@
 .tarjetas{
     display: flex;
     gap: 16px;
+    margin: 20px;
 }
 
-.tarjeta{
-    position: relative;
+.tarjeta {
+    background-color: rgb(134, 76, 152, 0.6); 
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 
 .tarjeta__imagen{
@@ -66,15 +72,25 @@
 }
 
 .tarjeta__titulo{
-    position: absolute;
-    bottom: 40px;
-    left: 45%;
+    display: flex;
+    justify-content: center;
     color: aliceblue;
-    background-color: rgb(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 30px;
 }
 
+.tarjeta__parrafo{
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+.tarjeta__boton{
+    display: flex;
+    justify-content: center;
+    color: aliceblue;
+}
 /* Destinos */
 .tarjetas2{
     display:flex;
