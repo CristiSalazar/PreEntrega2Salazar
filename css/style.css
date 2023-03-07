@@ -362,4 +362,46 @@ span{
   border: 1px solid #97d848;
 }
 
+@media screen and (max-width: 1024px) {
+    .tarjetas{
+        flex-direction: column;
+    }
+    .carrusel-personalizado{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 30px;
+        padding: 20px;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .carousel-control-prev-icon {
+        position: absolute;
+        bottom: -80px;
+        left: 20px;
+    }
+    
+    .carousel-control-next-icon {
+        position: absolute;
+        bottom: -80px;
+        right: 20px;
+    }
+    .promociones {
+        grid-template-columns: 1fr 2fr;
+    }
+}
 
+@media screen and (max-width: 768px) {
+    .navbar-toggler{
+        width: 80px;
+    }
+    .carrusel-personalizado{
+        margin-top: 100px;
+        margin-left: 0;
+        margin-right: 0;
+        padding: 0;
+    }
+    .promociones {
+        grid-template-columns: 1fr 3fr;
+    }
+}
