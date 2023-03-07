@@ -40,6 +40,10 @@
     font-weight: bold;
 }
 
+.footer p{
+    margin: 0;
+}
+
 /* Inicio */
 .partePrincipal {
     background-image: url(../images/fascinante-vista-montana-sassolungo-italia_181624-42103.avif);
