@@ -178,6 +178,29 @@
     right: 20px;
 }
 
+.promociones {
+    background-image: url("../images/santa-maddalena-cordillera-dolomitastirol-sur.jpg");
+    background-size: cover;
+    margin-bottom: 20px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-areas: 
+        ". texto"
+}
+
+.promociones__texto {
+    grid-area: texto;
+    color: white;
+    background-color: rgba(113, 76, 152, 0.6); 
+    padding: 100px 60px;
+}
+
+.borde {
+    border-bottom: 3px dashed white;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+}
+
 /* Sobre nosotros */
 .tarjetas4{
     display: flex;
@@ -308,5 +331,16 @@ span{
   outline:0;
   border: 1px solid #97d848;
 }
+.icono{
+    width: 40px;
+    display: flex;
+}
 
-
+.footer{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(134, 76, 152, 0.3); 
+    font-weight: bold;
+}
