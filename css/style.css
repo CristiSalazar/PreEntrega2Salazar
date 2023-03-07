@@ -400,11 +400,13 @@ span{
 @media screen and (max-width: 768px) {
     .navbar-toggler{
         width: 70px;
+        margin-bottom: 0;
     }
     .carrusel-personalizado{
         margin-top: 100px;
         margin-left: 0;
         margin-right: 0;
+        margin-bottom: 40px;
         padding: 0;
     }
     .promociones {
