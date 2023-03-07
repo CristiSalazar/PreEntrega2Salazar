@@ -7,6 +7,7 @@
     font-family: 'Raleway', sans-serif;
 }
 
+/* Navbar */
 .bg-body-personalizado {
     padding: 10px 40px;
     background-color: #5d3669;
@@ -23,7 +24,23 @@
     font-size: 18px;
 }
 
+/* Footer */
+.icono{
+    width: 30px;
+    display: flex;
+}
 
+.footer{
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: hsla(286, 33%, 45%, 0.302);  */
+    background: linear-gradient(90deg, rgba(202,167,218,1) 0%, rgba(222,195,240,1) 54%, rgba(126,136,177,1) 100%);
+    font-weight: bold;
+}
+
+/* Inicio */
 .partePrincipal {
     background-image: url(../images/fascinante-vista-montana-sassolungo-italia_181624-42103.avif);
     background-size:cover;
@@ -43,13 +60,15 @@
 .opciones {
     display: inline-block;
 }
-.opciones1 {
+
+.opciones h3{
+    text-align: center;
+    margin-top: 20px;
     font-weight: bold;
-    padding-top: 30px;
-    padding-left: 30px;
 }
-.opciones2 {
-    padding: 30px;
+
+.opciones__texto {
+    padding: 10px;
 }
 
 .tarjetas{
@@ -87,9 +106,20 @@
 }
 
 .tarjeta__boton{
-    display: flex;
-    justify-content: center;
-    color: aliceblue;
+    display: table; 
+    margin: 0px auto 0px auto; 
+    padding:5px;font-size:15px;background-color:rgba(0, 0, 0, 0.3);color:aliceblue;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+/* Animación botón ver más tarjetas */
+.scale {
+    transition: 0.7s;
+}
+
+.scale:hover {
+    transform: scale(1.04);
 }
 
 /* Destinos */
@@ -331,16 +361,5 @@ span{
   outline:0;
   border: 1px solid #97d848;
 }
-.icono{
-    width: 40px;
-    display: flex;
-}
 
-.footer{
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    background-color: rgb(134, 76, 152, 0.3); 
-    font-weight: bold;
-}
+
