@@ -237,135 +237,50 @@
 }
 
 /* Sobre nosotros */
-.tarjetas4{
+.parteSobreNosotros{
     display: flex;
-    justify-content: space-between;
     gap: 16px;
+    margin-top: 80px;
+    padding: 20px;
 }
 
-.tarjeta4{
-    position: relative;
-    padding: 100px;
+.tarjetanosotros{
+    background-color: rgb(134, 76, 152, 0.6); 
+    padding: 20px;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
 }
 
-.tarjeta__imagen4{
+.tarjetanosotros__imagen{
     width: 100%;
 }
 
-.tarjeta__titulo4{
-    position: absolute;
-    bottom: 40px;
-    left: 45%;
+.tarjetanosotros__titulo{
+    display: flex;
     color: aliceblue;
-    background-color: rgb(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.6);
     padding: 20px;
     border-radius: 30px;
 }
 
-.tarjeta__parrafo4{
-    position: absolute;
-    bottom: -10px;
-    left: 5%;
+.tarjetanosotros__parrafo{
+    display: flex;
+}
+
+.tarjetanosotros__boton{
+    display: table; 
+    margin: 0px auto 0px auto; 
+    padding:5px;font-size:15px;background-color:rgba(0, 0, 0, 0.3);color:aliceblue;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: bold;
 }
 
 /* Contacto */
 
-.contact_form{  
-  width: 460px; 
-  margin-top:100px;
-  margin-left:500px;
-  border-radius: 10px;  
-  padding-top: 30px;
-  padding-bottom: 20px;  
-  background-color: #d2c1d4; 
-  padding-left: 30px; 
-  display: inline-block;
-  position: relative;
-}
-
-input{
-  background-color: #fbfbfbab; 
-  width: 400px; 
-  height: 40px; 
-  border-radius: 10px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: #ab4493af; 
-  margin-top: 10px;  
-  padding-left: 10px;
-  margin-bottom: 20px; 
-}
-
-textarea{
-  background-color:#fbfbfbab; 
-  width: 400px; 
-  height: 120px; 
-  border-radius: 5px;  
-  border-style: solid; 
-  border-width: 1px; 
-  border-color: #ab4493af; 
-  margin-top: 10px;  
-  padding-left: 10px;
-  margin-bottom: 20px; 
-  padding-top: 15px; 
-}
-
-
-label{ 
-  float: center;  
-}
-
-
-button{
-  height: 45px; 
-  padding: 5px; 
-  margin-bottom: 20px; 
-  margin-top: 10px;   
-  text-transform: uppercase;
-  background-color: #ab4493; 
-  border-color: #ab4493; 
-  border-style: solid; 
-  border-radius: 10px;  
-  width: 420px;   
-}
-
-
-button p{
-  color: #fff; 
-}
-
-
-span{
-  color: #ab4493; 
-}
-
-
-.aviso{
-  font-size: 13px;  
-  color: #0e0e0e;  
-}
-
-
-::-webkit-input-placeholder {
- color: #a8a8a8;
-}
-
-
-::-webkit-textarea-placeholder {
- color: #a8a8a8;
-}
-
-
-.formulario input:focus{
-  outline:0;
-  border: 1px solid #97d848;
-}
-
-
-.formulario textarea:focus{
-  outline:0;
-  border: 1px solid #97d848;
-}
 
 @media screen and (max-width: 1024px) {
     .tarjetas{
