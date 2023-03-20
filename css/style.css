@@ -62,7 +62,8 @@
 }
 
 .opciones {
-    display: inline-block;
+    display: flex;
+    flex-direction: column;
 }
 
 .opciones h3{
@@ -72,7 +73,7 @@
 }
 
 .opciones__texto {
-    padding: 10px;
+    text-align: center;
 }
 
 .tarjetas{
@@ -104,8 +105,7 @@
 }
 
 .tarjeta__parrafo{
-    display: flex;
-    justify-content: center;
+    text-align: center;
     color: #fff;
 }
 
@@ -127,12 +127,20 @@
 }
 
 /* Destinos */
+.titulodestinos {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 100px 20px 0px 20px; 
+}
+
 .destinos {
     width: 100%;
     height: 500vh;
     padding: 16px;
     gap: 30px;
-    margin-top: 100px;
     display: grid;
     grid-template-rows: repeat(6, 1fr);
     grid-template-areas:  
@@ -196,11 +204,37 @@
 
 
 /* Servicios */
+.tituloservicios {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 120px 100px 0px 100px; 
+
+}
 .carrusel-personalizado {
-    margin-top: 60px;
+    margin-top: 1px;
     margin-bottom:40px;
 }
 
+.carousel-item{
+    height: 450px;
+} 
+.carousel-item img{
+    height: 450px;
+}
+
+.carousel-caption{
+    height: 200px;
+}
+
+.carousel-caption h5 {
+    font-size: x-large;
+}
+.carousel-caption p{
+    font-size: larger;
+}
 .carousel-control-prev-icon {
     position: absolute;
     bottom: -100px;
@@ -237,10 +271,19 @@
 }
 
 /* Sobre nosotros */
+
+.titulosobrenosotros {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 100px 20px 0px 20px; 
+}
+
 .parteSobreNosotros{
     display: flex;
     gap: 16px;
-    margin-top: 80px;
     padding: 20px;
 }
 
@@ -267,7 +310,7 @@
 }
 
 .tarjetanosotros__parrafo{
-    display: flex;
+    text-align: center;
 }
 
 .tarjetanosotros__boton{
@@ -281,6 +324,130 @@
 
 /* Contacto */
 
+.titulocontacto {
+    text-align: center;
+    color: aliceblue;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
+    border-radius: 30px;
+    margin: 100px 200px 0px 200px; 
+}
+.formulario h2{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.contact_form{  
+  width: 500px; 
+  border-radius: 10px;  
+  padding-top: 30px;
+  padding-bottom: 20px;  
+  background-color: #d2c1d4; 
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+input{
+  background-color: #fbfbfbab; 
+  width: 400px; 
+  height: 40px; 
+  border-radius: 10px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493af; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+}
+
+.formulario p{
+    display: flex;
+    justify-content: center;
+}
+
+.formulario button{
+    width: 110px; 
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+textarea{
+  background-color:#fbfbfbab; 
+  width: 400px; 
+  height: 120px; 
+  border-radius: 5px;  
+  border-style: solid; 
+  border-width: 1px; 
+  border-color: #ab4493af; 
+  margin-top: 10px;  
+  padding-left: 10px;
+  margin-bottom: 20px; 
+  padding-top: 15px; 
+}
+
+
+label{ 
+  float: center;
+  margin: 20px;
+}
+
+
+button{
+  height: 45px; 
+  padding: 5px; 
+  margin-bottom: 20px; 
+  margin-top: 10px;   
+  text-transform: uppercase;
+  background-color: #ab4493; 
+  border-color: #ab4493; 
+  border-style: solid; 
+  border-radius: 10px;  
+  width: 420px;   
+}
+
+
+button p{
+  color: #fff; 
+}
+
+
+span{
+  color: #ab4493; 
+}
+
+
+.aviso{
+  font-size: 13px;  
+  color: #0e0e0e;  
+}
+
+
+::-webkit-input-placeholder {
+ color: #a8a8a8;
+}
+
+
+::-webkit-textarea-placeholder {
+ color: #a8a8a8;
+}
+
+
+.formulario input:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
+
+
+.formulario textarea:focus{
+  outline:0;
+  border: 1px solid #97d848;
+}
 
 @media screen and (max-width: 1024px) {
     .tarjetas{
