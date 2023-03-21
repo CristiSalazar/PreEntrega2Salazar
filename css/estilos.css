@@ -106,7 +106,7 @@ header .bg-body-personalizado {
 }
 
 .partePrincipal {
-  background-image: url(../../images/fascinante-vista-montana-sassolungo-italia_181624-42103.avif);
+  background-image: url("../../images/fascinante-vista-montana-sassolungo-italia_181624-42103.avif");
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -250,7 +250,7 @@ header .bg-body-personalizado {
 }
 .destinos .destinos__montana {
   grid-area: montana;
-  background-image: url(../images/fascinante-paisaje-montanas-verdes-superficie-cielo-nublado_181624-27189.avif);
+  background-image: url("../images/fascinante-paisaje-montanas-verdes-superficie-cielo-nublado_181624-27189.avif");
   background-size: cover;
   border-radius: 30px;
 }
