@@ -1,0 +1,380 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,600;0,700;1,100&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Raleway", sans-serif;
+}
+
+header .navbar .navbar-brand {
+  color: rgb(154, 147, 161);
+  font-size: 40px;
+}
+header .navbar .nav-link {
+  color: rgb(154, 147, 161);
+  font-size: 18px;
+}
+header .bg-body-personalizado {
+  padding: 10px 40px;
+  background-color: #5d3669;
+  width: 100%;
+}
+
+.tarjetas {
+  display: flex;
+  gap: 16px;
+  margin: 20px;
+}
+.tarjetas .tarjeta {
+  background-color: rgba(134, 76, 152, 0.6);
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.tarjetas .tarjeta:scale {
+  transition: 0.7s;
+}
+.tarjetas .tarjeta:hover {
+  transform: scale(1.04);
+}
+.tarjetas .tarjeta .tarjeta__imagen {
+  width: 100%;
+}
+.tarjetas .tarjeta .tarjeta__titulo {
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 30px;
+}
+.tarjetas .tarjeta .tarjeta__parrafo {
+  text-align: center;
+  color: #fff;
+}
+.tarjetas .tarjeta .tarjeta__boton {
+  display: table;
+  margin: 0px auto 0px auto;
+  padding: 5px;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: aliceblue;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.parteSobreNosotros {
+  display: flex;
+  gap: 16px;
+  padding: 20px;
+}
+.parteSobreNosotros .tarjetanosotros {
+  background-color: rgba(134, 76, 152, 0.6);
+  padding: 20px;
+  border-radius: 16px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+.parteSobreNosotros .tarjetanosotros .tarjetanosotros__imagen {
+  width: 100%;
+}
+.parteSobreNosotros .tarjetanosotros .tarjetanosotros__titulo {
+  display: flex;
+  color: aliceblue;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 30px;
+}
+.parteSobreNosotros .tarjetanosotros .tarjetanosotros__parrafo {
+  text-align: center;
+}
+.parteSobreNosotros .tarjetanosotros .tarjetanosotros__boton {
+  display: table;
+  margin: 0px auto 0px auto;
+  padding: 5px;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.3);
+  color: aliceblue;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.partePrincipal {
+  background-image: url(../../images/fascinante-vista-montana-sassolungo-italia_181624-42103.avif);
+  background-size: cover;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.partePrincipal h2 {
+  color: rgb(129, 129, 130);
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 30px;
+}
+
+.footer {
+  padding: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: hsla(286, 33%, 45%, 0.302);  */
+  background: linear-gradient(90deg, rgb(202, 167, 218) 0%, rgb(222, 195, 240) 54%, rgb(126, 136, 177) 100%);
+  font-weight: bold;
+}
+.footer p {
+  margin: 0;
+}
+.footer .icono {
+  width: 30px;
+  display: flex;
+}
+
+.contact_form {
+  width: 500px;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #d2c1d4;
+  width: 100%;
+  max-width: 600px;
+  margin: 30px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.contact_form .formulario .h2 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.contact_form .formulario .p {
+  display: flex;
+  justify-content: center;
+}
+.contact_form .formulario .p .input {
+  background-color: rgba(251, 251, 251, 0.6705882353);
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(171, 68, 147, 0.6862745098);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+.contact_form .formulario .p .label {
+  float: center;
+  margin: 20px;
+}
+.contact_form .formulario .button {
+  width: 110px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+}
+.contact_form .formulario textarea {
+  background-color: rgba(251, 251, 251, 0.6705882353);
+  width: 400px;
+  height: 120px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: rgba(171, 68, 147, 0.6862745098);
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+  padding-top: 15px;
+}
+.contact_form .formulario button {
+  height: 45px;
+  padding: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  text-transform: uppercase;
+  background-color: #ab4493;
+  border-color: #ab4493;
+  border-style: solid;
+  border-radius: 10px;
+  width: 420px;
+}
+.contact_form .formulario button p {
+  color: #fff;
+}
+.contact_form .formulario span {
+  color: #ab4493;
+}
+.contact_form .formulario .aviso {
+  font-size: 13px;
+  color: #0e0e0e;
+}
+.contact_form .formulario ::-webkit-input-placeholder {
+  color: #a8a8a8;
+}
+.contact_form .formulario ::-webkit-textarea-placeholder {
+  color: #a8a8a8;
+}
+.contact_form .formulario .formulario input:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+.contact_form .formulario .formulario textarea:focus {
+  outline: 0;
+  border: 1px solid #97d848;
+}
+
+.destinos {
+  width: 100%;
+  height: 500vh;
+  padding: 16px;
+  gap: 30px;
+  display: grid;
+  grid-template-rows: repeat(6, 1fr);
+  grid-template-areas: "montana" "lagocristalino" "lago" "rio" "lagozugspitze" "rio2";
+}
+.destinos .destinos div {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  color: aliceblue;
+  padding: 20px;
+  font-size: xx-large;
+}
+.destinos .destinos div .destinos__montana {
+  grid-area: montana;
+  background-image: url(../images/fascinante-paisaje-montanas-verdes-superficie-cielo-nublado_181624-27189.avif);
+  background-size: cover;
+  border-radius: 30px;
+}
+.destinos .destinos div .destinos__lagocristalino {
+  grid-area: lagocristalino;
+  background-image: url(../images/hermosa-foto-lago-cristalino-junto-base-montana-nevada-dia-soleado_181624-5459.avif);
+  background-size: cover;
+  border-radius: 30px;
+}
+.destinos .destinos div .destinos__lago {
+  grid-area: lago;
+  background-image: url(../images/hermosa-vista-lago-rodeado-montanas-lago-longrin-presa-suiza_181624-27908.avif);
+  background-size: cover;
+  border-radius: 30px;
+}
+.destinos .destinos div .destinos__rio {
+  grid-area: rio;
+  background-image: url(../images/hermoso-paisaje-rio-rodeado-vegetacion-bosque_181624-40482.avif);
+  background-size: cover;
+  border-radius: 30px;
+}
+.destinos .destinos div .destinos__lagozugspitze {
+  grid-area: lagozugspitze;
+  background-image: url(../images/impresionante-vista-lago-zugspitze-rodeado-bosques-eibsee_181624-9813.avif);
+  background-size: cover;
+  border-radius: 30px;
+}
+.destinos .destinos div .destinos__rio2 {
+  grid-area: rio2;
+  background-image: url(../images/rio-montanas-orilla-rocosa-pirineos_1398-5036.avif);
+  border-radius: 30px;
+}
+
+.promociones {
+  background-image: url("../images/santa-maddalena-cordillera-dolomitastirol-sur.jpg");
+  background-size: cover;
+  margin-bottom: 20px;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-areas: ". texto";
+}
+.promociones .promociones__texto {
+  grid-area: texto;
+  color: white;
+  background-color: rgba(113, 76, 152, 0.6);
+  padding: 100px 60px;
+}
+.promociones .promociones__texto .borde {
+  border-bottom: 3px dashed white;
+  margin-bottom: 60px;
+  padding-bottom: 30px;
+}
+
+.carrusel-personalizado {
+  margin-top: 1px;
+  margin-bottom: 40px;
+}
+.carrusel-personalizado .carousel-item {
+  height: 450px;
+}
+.carrusel-personalizado .carousel-item .img {
+  height: 450px;
+}
+.carrusel-personalizado .carousel-item .carousel-caption {
+  height: 200px;
+}
+.carrusel-personalizado .carousel-item .carousel-caption .h5 {
+  font-size: x-large;
+}
+.carrusel-personalizado .carousel-item .carousel-caption .p {
+  font-size: larger;
+}
+.carrusel-personalizado .carousel-control-prev-icon {
+  position: absolute;
+  bottom: -100px;
+  left: 20px;
+}
+.carrusel-personalizado .carousel-control-next-icon {
+  position: absolute;
+  bottom: -100px;
+  right: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+  .tarjetas {
+    flex-direction: column;
+  }
+  .carrusel-personalizado {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    margin-right: 0;
+    padding: 1.5em 0;
+  }
+  .carousel-control-prev-icon {
+    position: absolute;
+    bottom: -80px;
+    left: 20px;
+  }
+  .carousel-control-next-icon {
+    position: absolute;
+    bottom: -80px;
+    right: 20px;
+  }
+  .promociones {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  .navbar-toggler {
+    width: 70px;
+    margin-bottom: 0;
+  }
+  .carrusel-personalizado {
+    margin-top: 100px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 40px;
+    padding: 0;
+  }
+  .promociones {
+    grid-template-columns: 1fr 3fr;
+  }
+}/*# sourceMappingURL=estilos.css.map */
