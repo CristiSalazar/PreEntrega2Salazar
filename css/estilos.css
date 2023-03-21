@@ -106,7 +106,7 @@ header .bg-body-personalizado {
 }
 
 .partePrincipal {
-  background-image: url(../../images/fascinante-vista-montana-sassolungo-italia_181624-42103.avif);
+  background-image: url(~../../images/fascinante-vista-montana-sassolungo-italia_181624-42103.avif);
   background-size: cover;
   height: 100vh;
   display: flex;
