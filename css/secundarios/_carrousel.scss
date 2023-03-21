@@ -5,32 +5,20 @@
     .carousel-item{
         height: 450px;
 
-        .img{
+        img{
             height: 450px;
         }
 
         .carousel-caption{
             height: 200px;
 
-            .h5 {
+            h5 {
                 font-size: x-large;
             }
 
-            .p{
+            p{
                 font-size: larger;
             }
         }
     } 
-
-    .carousel-control-prev-icon {
-        position: absolute;
-        bottom: -100px;
-        left: 20px;
-    }
-
-    .carousel-control-next-icon {
-        position: absolute;
-        bottom: -100px;
-        right: 20px;
-    }
 }

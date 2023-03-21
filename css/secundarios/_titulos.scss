@@ -12,3 +12,40 @@
         text-align: center;
     }
 }
+
+.titulodestinos {
+    text-align: center;
+    color: aliceblue;
+    background-color: $colorTitulos;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 100px 20px 0px 20px; 
+}
+
+.tituloservicios {
+    text-align: center;
+    color: aliceblue;
+    background-color: $colorTitulos;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 120px 100px 0px 100px; 
+
+}
+
+.titulosobrenosotros {
+    text-align: center;
+    color: aliceblue;
+    background-color: $colorTitulos;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 100px 20px 0px 20px; 
+}
+
+.titulocontacto {
+    text-align: center;
+    color: aliceblue;
+    background-color: $colorTitulos;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 100px 200px 0px 200px; 
+}
