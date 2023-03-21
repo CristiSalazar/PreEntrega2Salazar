@@ -334,6 +334,19 @@ header .bg-body-personalizado {
   right: 20px;
 }
 
+.opciones {
+  display: flex;
+  flex-direction: column;
+}
+.opciones h3 {
+  text-align: center;
+  margin-top: 20px;
+  font-weight: bold;
+}
+.opciones .opciones__texto {
+  text-align: center;
+}
+
 @media screen and (max-width: 1024px) {
   .tarjetas {
     flex-direction: column;

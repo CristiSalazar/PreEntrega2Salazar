@@ -1,0 +1,14 @@
+.opciones {
+    display: flex;
+    flex-direction: column;
+
+    h3{
+        text-align: center;
+        margin-top: 20px;
+        font-weight: bold;
+    }
+
+    .opciones__texto {
+        text-align: center;
+    }
+}
