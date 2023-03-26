@@ -34,42 +34,42 @@
 
     .destinos__montana{
         grid-area: montana;
-        background-image: url(../../images/fascinante-paisaje-montanas-verdes-superficie-cielo-nublado_181624-27189.avif);
+        background-image: url("../../images/fascinante-paisaje-montanas-verdes-superficie-cielo-nublado_181624-27189.avif");
         background-size: cover;
         border-radius: 30px;
     }
 
     .destinos__lagocristalino{
         grid-area: lagocristalino;
-        background-image: url(../../images/hermosa-foto-lago-cristalino-junto-base-montana-nevada-dia-soleado_181624-5459.avif);
+        background-image: url("../../images/hermosa-foto-lago-cristalino-junto-base-montana-nevada-dia-soleado_181624-5459.avif");
         background-size: cover;
         border-radius: 30px;
     }
 
     .destinos__lago{
         grid-area: lago;
-        background-image: url(../../images/hermosa-vista-lago-rodeado-montanas-lago-longrin-presa-suiza_181624-27908.avif);
+        background-image: url("../../images/hermosa-vista-lago-rodeado-montanas-lago-longrin-presa-suiza_181624-27908.avif");
         background-size: cover;
         border-radius: 30px;
     }
 
     .destinos__rio{
         grid-area: rio;
-        background-image: url(../../images/hermoso-paisaje-rio-rodeado-vegetacion-bosque_181624-40482.avif);
+        background-image: url("../../images/hermoso-paisaje-rio-rodeado-vegetacion-bosque_181624-40482.avif");
         background-size: cover;
         border-radius: 30px;
     }
 
     .destinos__lagozugspitze{
         grid-area: lagozugspitze;
-        background-image: url(../../images/impresionante-vista-lago-zugspitze-rodeado-bosques-eibsee_181624-9813.avif);
+        background-image: url("../../images/impresionante-vista-lago-zugspitze-rodeado-bosques-eibsee_181624-9813.avif");
         background-size: cover;
         border-radius: 30px;
     }
 
     .destinos__rio2{
         grid-area: rio2;
-        background-image: url(../../images/rio-montanas-orilla-rocosa-pirineos_1398-5036.avif);
+        background-image: url("../../images/rio-montanas-orilla-rocosa-pirineos_1398-5036.avif");
         border-radius: 30px;
     }
 }
@@ -100,7 +100,7 @@
   }
 
 .promociones {
-    background-image: url(../../images/santa-maddalena-cordillera-dolomitastirol-sur.jpg);
+    background-image: url("../../images/santa-maddalena-cordillera-dolomitastirol-sur.jpg");
     background-size: cover;
     margin-bottom: 20px;
     display: grid;
