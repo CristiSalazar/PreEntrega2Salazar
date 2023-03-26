@@ -19,14 +19,18 @@
         align-content: center;
         justify-content: flex-end;
         align-items: center;
-        color: aliceblue;
         padding: 20px;
-        font-size: xx-large;
         animation: 3s anim-lineUp ease-in-out;
+
+        h2{
+            color: aliceblue;
+            font-size: xx-large;
+            font-weight: 580;
+        }
 
         .parrafoDestinos{
             color: white;
-            font-size: large;
+            font-size: 22px;
             padding: 20px;
             text-align: center;
         }
@@ -76,27 +80,32 @@
 
 @for $titulos from 1 through 6 {
     .destino:nth-child(#{$titulos}) {
-        animation-delay: $titulos * 2s;
+        animation-delay: $titulos * 1.5s;
     }
 }
 
 
+// @keyframes anim-lineUp {
+//     0% {
+//       opacity: 0;
+//       transform: translateY(80%);
+//     }
+//     20% {
+//       opacity: 0;
+//     }
+//     50% {
+//       opacity: 1;
+//       transform: translateY(0%);
+//     }
+//     100% {
+//       opacity: 1;
+//       transform: translateY(0%);
+//     }
+//   }
+
 @keyframes anim-lineUp {
-    0% {
-      opacity: 0;
-      transform: translateY(80%);
-    }
-    20% {
-      opacity: 0;
-    }
-    50% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
-    100% {
-      opacity: 1;
-      transform: translateY(0%);
-    }
+    from{opacity:0;}
+    to{opacity: 1;}
   }
 
 .promociones {

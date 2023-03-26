@@ -6,27 +6,27 @@
     .parteSobreNosotros{
         flex-direction: column;
     }
-    .carrusel-personalizado{
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        margin-top: 0;
-        margin-bottom: 40px;
-        margin-left: 0;
-        margin-right: 0;
-        padding: 0;
-    }
-    .carousel-control-prev-icon {
-        position: absolute;
-        bottom: -80px;
-        left: 20px;
-    }
+    // .carrusel-personalizado{
+    //     display: flex;
+    //     flex-direction: column;
+    //     align-items: center;
+    //     margin-top: 0;
+    //     margin-bottom: 40px;
+    //     margin-left: 0;
+    //     margin-right: 0;
+    //     padding: 0;
+    // }
+    // .carousel-control-prev-icon {
+    //     position: absolute;
+    //     bottom: -80px;
+    //     left: 20px;
+    // }
     
-    .carousel-control-next-icon {
-        position: absolute;
-        bottom: -80px;
-        right: 20px;
-    }
+    // .carousel-control-next-icon {
+    //     position: absolute;
+    //     bottom: -80px;
+    //     right: 20px;
+    // }
     .promociones {
         grid-template-columns: 1fr 2fr;
     }
@@ -38,13 +38,13 @@
         margin-bottom: 0;
     }
 
-    .carrusel-personalizado{
-        margin-top: 0;
-        margin-left: 0;
-        margin-right: 0;
-        margin-bottom: 40px;
-        padding: 0;
-    }
+    // .carrusel-personalizado{
+    //     margin-top: 0;
+    //     margin-left: 0;
+    //     margin-right: 0;
+    //     margin-bottom: 40px;
+    //     padding: 0;
+    // }
     .promociones {
         grid-template-columns: 1fr 3fr;
     }
