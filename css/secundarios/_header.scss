@@ -1,5 +1,13 @@
 header {
     .navbar{
+
+        .navbar-toggler{
+            @include mobile{
+                width: 70px;
+                margin-bottom: 0;
+            }
+        }
+
         .navbar-brand {
             color: rgb(154, 147, 161);
             font-size: 40px;

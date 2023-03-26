@@ -6,6 +6,12 @@
   font-family: "Raleway", sans-serif;
 }
 
+@media screen and (max-width: 768px) {
+  header .navbar .navbar-toggler {
+    width: 70px;
+    margin-bottom: 0;
+  }
+}
 header .navbar .navbar-brand {
   color: rgb(154, 147, 161);
   font-size: 40px;
@@ -24,6 +30,11 @@ header .bg-body-personalizado {
   display: flex;
   gap: 16px;
   margin: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .tarjetas {
+    flex-direction: column;
+  }
 }
 .tarjetas .tarjeta {
   background-color: rgba(134, 76, 152, 0.6);
@@ -70,6 +81,11 @@ header .bg-body-personalizado {
   display: flex;
   gap: 16px;
   padding: 20px;
+}
+@media screen and (max-width: 1024px) {
+  .parteSobreNosotros {
+    flex-direction: column;
+  }
 }
 .parteSobreNosotros .tarjetanosotros {
   background-color: rgba(134, 76, 152, 0.6);
@@ -148,6 +164,11 @@ header .bg-body-personalizado {
   max-width: 600px;
   margin: 50px auto;
 }
+@media screen and (max-width: 768px) {
+  .formulario {
+    max-width: 400px;
+  }
+}
 .formulario label {
   font-size: large;
   text-align: center;
@@ -163,6 +184,11 @@ header .bg-body-personalizado {
   margin-top: 10px;
   padding-left: 10px;
   margin-bottom: 20px;
+}
+@media screen and (max-width: 768px) {
+  .formulario input, .formulario textarea {
+    max-width: 300px;
+  }
 }
 .formulario .botonEnviar {
   padding: 5px;
@@ -296,6 +322,16 @@ header .bg-body-personalizado {
   grid-template-columns: 2fr 1fr;
   grid-template-areas: ". texto";
 }
+@media screen and (max-width: 1024px) {
+  .promociones {
+    grid-template-columns: 1fr 2fr;
+  }
+}
+@media screen and (max-width: 768px) {
+  .promociones {
+    grid-template-columns: 1fr 3fr;
+  }
+}
 .promociones .promociones__texto {
   grid-area: texto;
   color: white;
@@ -349,32 +385,7 @@ header .bg-body-personalizado {
   border-radius: 30px;
   margin: 100px 20px 0px 20px;
 }
-
-@media screen and (max-width: 1024px) {
-  .tarjetas {
-    flex-direction: column;
-  }
-  .parteSobreNosotros {
-    flex-direction: column;
-  }
-  .promociones {
-    grid-template-columns: 1fr 2fr;
-  }
-}
 @media screen and (max-width: 768px) {
-  .navbar-toggler {
-    width: 70px;
-    margin-bottom: 0;
-  }
-  .formulario {
-    max-width: 400px;
-  }
-  input, textarea {
-    max-width: 300px;
-  }
-  .promociones {
-    grid-template-columns: 1fr 3fr;
-  }
   .tituloPagina {
     margin-top: 130px;
   }

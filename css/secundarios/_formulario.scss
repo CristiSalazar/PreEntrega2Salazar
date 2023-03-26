@@ -10,6 +10,10 @@
   max-width: 600px;
   margin: 50px auto;
 
+  @include mobile {
+    max-width: 400px;
+  }
+
   label {
     font-size: large;
     text-align: center;
@@ -26,6 +30,10 @@
     margin-top: 10px;  
     padding-left: 10px;
     margin-bottom: 20px; 
+
+    @include mobile {
+      max-width: 300px;
+    }
   }
 
   .botonEnviar {

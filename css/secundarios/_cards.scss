@@ -3,6 +3,10 @@
     gap: 16px;
     margin: 20px;
 
+    @include tablet {
+        flex-direction: column;
+    }
+
     .tarjeta {
         background-color: $mainColor; 
         padding: 20px;
@@ -52,6 +56,10 @@
     display: flex;
     gap: 16px;
     padding: 20px;
+
+    @include tablet {
+        flex-direction: column;
+    }
 
     .tarjetanosotros{
         background-color: $mainColor; 
