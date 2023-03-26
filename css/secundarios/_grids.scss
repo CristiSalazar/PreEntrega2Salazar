@@ -13,15 +13,25 @@
         "lagozugspitze"
         "rio2";
 
-    div{
+    .destino{
         display: flex;
-        justify-content: center;
-        align-items: flex-end;
+        flex-direction: column;
+        align-content: center;
+        justify-content: flex-end;
+        align-items: center;
         color: aliceblue;
         padding: 20px;
         font-size: xx-large;
-    }
-    
+        animation: 3s anim-lineUp ease-in-out;
+
+        .parrafoDestinos{
+            color: white;
+            font-size: large;
+            padding: 20px;
+            text-align: center;
+        }
+     }
+
     .destinos__montana{
         grid-area: montana;
         background-image: url(../../images/fascinante-paisaje-montanas-verdes-superficie-cielo-nublado_181624-27189.avif);
@@ -62,9 +72,32 @@
         background-image: url(../../images/rio-montanas-orilla-rocosa-pirineos_1398-5036.avif);
         border-radius: 30px;
     }
-
-    
 }
+
+@for $titulos from 1 through 6 {
+    .destino:nth-child(#{$titulos}) {
+        animation-delay: $titulos * 2s;
+    }
+}
+
+
+@keyframes anim-lineUp {
+    0% {
+      opacity: 0;
+      transform: translateY(80%);
+    }
+    20% {
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
 
 .promociones {
     background-image: url(../../images/santa-maddalena-cordillera-dolomitastirol-sur.jpg);

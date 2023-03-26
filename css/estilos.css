@@ -184,13 +184,23 @@ header .bg-body-personalizado {
   grid-template-rows: repeat(6, 1fr);
   grid-template-areas: "montana" "lagocristalino" "lago" "rio" "lagozugspitze" "rio2";
 }
-.destinos div {
+.destinos .destino {
   display: flex;
-  justify-content: center;
-  align-items: flex-end;
+  flex-direction: column;
+  align-content: center;
+  justify-content: flex-end;
+  align-items: center;
   color: aliceblue;
   padding: 20px;
   font-size: xx-large;
+  -webkit-animation: 3s anim-lineUp ease-in-out;
+          animation: 3s anim-lineUp ease-in-out;
+}
+.destinos .destino .parrafoDestinos {
+  color: white;
+  font-size: large;
+  padding: 20px;
+  text-align: center;
 }
 .destinos .destinos__montana {
   grid-area: montana;
@@ -228,6 +238,71 @@ header .bg-body-personalizado {
   border-radius: 30px;
 }
 
+.destino:nth-child(1) {
+  -webkit-animation-delay: 2s;
+          animation-delay: 2s;
+}
+
+.destino:nth-child(2) {
+  -webkit-animation-delay: 4s;
+          animation-delay: 4s;
+}
+
+.destino:nth-child(3) {
+  -webkit-animation-delay: 6s;
+          animation-delay: 6s;
+}
+
+.destino:nth-child(4) {
+  -webkit-animation-delay: 8s;
+          animation-delay: 8s;
+}
+
+.destino:nth-child(5) {
+  -webkit-animation-delay: 10s;
+          animation-delay: 10s;
+}
+
+.destino:nth-child(6) {
+  -webkit-animation-delay: 12s;
+          animation-delay: 12s;
+}
+
+@-webkit-keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
+
+@keyframes anim-lineUp {
+  0% {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  20% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}
 .promociones {
   background-image: url(../../images/santa-maddalena-cordillera-dolomitastirol-sur.jpg);
   background-size: cover;
