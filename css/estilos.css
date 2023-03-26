@@ -106,7 +106,7 @@ header .bg-body-personalizado {
 }
 
 .partePrincipal {
-  background-image: url("../images/fascinante-vista-montana-sassolungo-italia_181624-42103.avif");
+  background-image: url(../../images/fascinante-vista-montana-sassolungo-italia_181624-42103.avif);
   background-size: cover;
   height: 100vh;
   display: flex;
@@ -125,7 +125,6 @@ header .bg-body-personalizado {
   display: flex;
   flex-direction: column;
   align-items: center;
-  /* background-color: hsla(286, 33%, 45%, 0.302);  */
   background: linear-gradient(90deg, rgb(202, 167, 218) 0%, rgb(222, 195, 240) 54%, rgb(126, 136, 177) 100%);
   font-weight: bold;
 }
@@ -137,30 +136,23 @@ header .bg-body-personalizado {
   display: flex;
 }
 
-.contact_form {
-  width: 500px;
+.formulario {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   border-radius: 10px;
   padding-top: 30px;
   padding-bottom: 20px;
   background-color: #d2c1d4;
   width: 100%;
   max-width: 600px;
-  margin: 30px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  margin: 50px auto;
 }
-.contact_form .formulario h2 {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 20px;
+.formulario label {
+  font-size: large;
+  text-align: center;
 }
-.contact_form .formulario p {
-  display: flex;
-  justify-content: center;
-}
-.contact_form .formulario p input {
+.formulario input, .formulario textarea {
   background-color: rgba(251, 251, 251, 0.6705882353);
   width: 400px;
   height: 40px;
@@ -172,63 +164,15 @@ header .bg-body-personalizado {
   padding-left: 10px;
   margin-bottom: 20px;
 }
-.contact_form .formulario p label {
-  float: center;
-  margin: 20px;
-}
-.contact_form .formulario button {
-  width: 110px;
-  margin-left: 50%;
-  transform: translateX(-50%);
-}
-.contact_form .formulario textarea {
-  background-color: rgba(251, 251, 251, 0.6705882353);
-  width: 400px;
-  height: 120px;
-  border-radius: 5px;
-  border-style: solid;
-  border-width: 1px;
-  border-color: rgba(171, 68, 147, 0.6862745098);
-  margin-top: 10px;
-  padding-left: 10px;
-  margin-bottom: 20px;
-  padding-top: 15px;
-}
-.contact_form .formulario button {
-  height: 45px;
+.formulario .botonEnviar {
   padding: 5px;
-  margin-bottom: 20px;
-  margin-top: 10px;
-  text-transform: uppercase;
+  font-size: 15px;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: aliceblue;
+  border-radius: 20px;
+  font-weight: bold;
   background-color: #ab4493;
   border-color: #ab4493;
-  border-style: solid;
-  border-radius: 10px;
-  width: 420px;
-}
-.contact_form .formulario button p {
-  color: #fff;
-}
-.contact_form .formulario span {
-  color: #ab4493;
-}
-.contact_form .formulario .aviso {
-  font-size: 13px;
-  color: #0e0e0e;
-}
-.contact_form .formulario ::-webkit-input-placeholder {
-  color: #a8a8a8;
-}
-.contact_form .formulario ::-webkit-textarea-placeholder {
-  color: #a8a8a8;
-}
-.contact_form .formulario .formulario input:focus {
-  outline: 0;
-  border: 1px solid #97d848;
-}
-.contact_form .formulario .formulario textarea:focus {
-  outline: 0;
-  border: 1px solid #97d848;
 }
 
 .destinos {
@@ -250,42 +194,42 @@ header .bg-body-personalizado {
 }
 .destinos .destinos__montana {
   grid-area: montana;
-  background-image: url("../images/fascinante-paisaje-montanas-verdes-superficie-cielo-nublado_181624-27189.avif");
+  background-image: url(../../images/fascinante-paisaje-montanas-verdes-superficie-cielo-nublado_181624-27189.avif);
   background-size: cover;
   border-radius: 30px;
 }
 .destinos .destinos__lagocristalino {
   grid-area: lagocristalino;
-  background-image: url("../images/hermosa-foto-lago-cristalino-junto-base-montana-nevada-dia-soleado_181624-5459.avif");
+  background-image: url(../../images/hermosa-foto-lago-cristalino-junto-base-montana-nevada-dia-soleado_181624-5459.avif);
   background-size: cover;
   border-radius: 30px;
 }
 .destinos .destinos__lago {
   grid-area: lago;
-  background-image: url("../images/hermosa-vista-lago-rodeado-montanas-lago-longrin-presa-suiza_181624-27908.avif");
+  background-image: url(../../images/hermosa-vista-lago-rodeado-montanas-lago-longrin-presa-suiza_181624-27908.avif);
   background-size: cover;
   border-radius: 30px;
 }
 .destinos .destinos__rio {
   grid-area: rio;
-  background-image: url("../images/hermoso-paisaje-rio-rodeado-vegetacion-bosque_181624-40482.avif");
+  background-image: url(../../images/hermoso-paisaje-rio-rodeado-vegetacion-bosque_181624-40482.avif);
   background-size: cover;
   border-radius: 30px;
 }
 .destinos .destinos__lagozugspitze {
   grid-area: lagozugspitze;
-  background-image: url("../images/impresionante-vista-lago-zugspitze-rodeado-bosques-eibsee_181624-9813.avif");
+  background-image: url(../../images/impresionante-vista-lago-zugspitze-rodeado-bosques-eibsee_181624-9813.avif);
   background-size: cover;
   border-radius: 30px;
 }
 .destinos .destinos__rio2 {
   grid-area: rio2;
-  background-image: url("../images/rio-montanas-orilla-rocosa-pirineos_1398-5036.avif");
+  background-image: url(../../images/rio-montanas-orilla-rocosa-pirineos_1398-5036.avif);
   border-radius: 30px;
 }
 
 .promociones {
-  background-image: url("../images/santa-maddalena-cordillera-dolomitastirol-sur.jpg");
+  background-image: url(../../images/santa-maddalena-cordillera-dolomitastirol-sur.jpg);
   background-size: cover;
   margin-bottom: 20px;
   display: grid;
@@ -337,40 +281,13 @@ header .bg-body-personalizado {
   text-align: center;
 }
 
-.titulodestinos {
+.tituloPagina {
   text-align: center;
   color: aliceblue;
   background-color: rgba(0, 0, 0, 0.6);
   padding: 20px;
   border-radius: 30px;
   margin: 100px 20px 0px 20px;
-}
-
-.tituloservicios {
-  text-align: center;
-  color: aliceblue;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 20px;
-  border-radius: 30px;
-  margin: 120px 100px 0px 100px;
-}
-
-.titulosobrenosotros {
-  text-align: center;
-  color: aliceblue;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 20px;
-  border-radius: 30px;
-  margin: 100px 20px 0px 20px;
-}
-
-.titulocontacto {
-  text-align: center;
-  color: aliceblue;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 20px;
-  border-radius: 30px;
-  margin: 100px 200px 0px 200px;
 }
 
 @media screen and (max-width: 1024px) {
