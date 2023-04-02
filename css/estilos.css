@@ -20,6 +20,9 @@ header .navbar .nav-link {
   color: rgb(154, 147, 161);
   font-size: 18px;
 }
+header .navbar .nav-link:hover {
+  color: white;
+}
 header .bg-body-personalizado {
   padding: 10px 40px;
   background-color: #5d3669;
